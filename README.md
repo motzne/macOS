@@ -1,5 +1,6 @@
 # macOS setup
 My personal guide for a good macOS setup
+![macOS](assets/macOS_header.jpg)
 
 ## 🚀 Productivity
 * [SizeUp](http://www.irradiatedsoftware.com/sizeup/)
