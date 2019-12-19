@@ -16,6 +16,7 @@ My personal guide for a good macOS setup
 * [LittleSnitch - Network activity tracker](https://www.obdev.at/products/littlesnitch/download-de.html)
 * [1Password - Password manager](https://1password.com/)
 * KessPassXC
+* [Security Hardening Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 
 
 ## Browsers
