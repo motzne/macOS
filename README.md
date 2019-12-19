@@ -8,7 +8,7 @@ My personal guide for a good macOS setup
 * [Slack](https://slack.com/intl/de-ch/downloads/instructions/mac)
 
 ## 🔐 Security
-* [Oversight] (https://objective-see.com/products/oversight.html) - Protect your webcam and microphone
+* [Oversight](https://objective-see.com/products/oversight.html) - Protect your webcam and microphone
 * [KnockKnock](https://objective-see.com/products/knockknock.html) - What is persistantly installed
 * [Sophos Home](https://home.sophos.com/en-us.aspx) - Cybersecurity protection
 * [LittleSnitch](https://www.obdev.at/products/littlesnitch/download-de.html) - Network activity tracker
@@ -38,7 +38,7 @@ My personal guide for a good macOS setup
 * Apple Configurator (via App Store)
 * Xcode (via App Store)
 
-##   Terminal
+## 💻 Terminal
 * [Homebrew](https://brew.sh/#install)
 * Phyton 3
 * [iTerm2](https://iterm2.com/downloads.html)
@@ -59,8 +59,8 @@ pip install powerline-shell
 
 
 ## 🎵 Music
-* Sonos
-* Spotify
+* [Sonos](https://www.sonos.com/de-ch/support)
+* [Spotify](https://www.spotify.com/ch-de/download/other/)
 
 
 ## 🏢 Corporate
