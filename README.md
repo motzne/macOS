@@ -1,12 +1,12 @@
 # macOS setup
 My personal guide for a good macOS setup
 
-## Productivity
+## 🚀 Productivity
 * [SizeUp](http://www.irradiatedsoftware.com/sizeup/)
 * [Evernote](https://evernote.com/intl/de/download)
 * [Slack](https://slack.com/intl/de-ch/downloads/instructions/mac)
 
-## Security
+## 🔐 Security
 * [Oversight] (https://objective-see.com/products/oversight.html) - Protect your webcam and microphone
 * [KnockKnock](https://objective-see.com/products/knockknock.html) - What is persistantly installed
 * [Sophos Home](https://home.sophos.com/en-us.aspx) - Cybersecurity protection
@@ -15,29 +15,29 @@ My personal guide for a good macOS setup
 * A very good Security Hardening Guide. Credit to [drduh](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 
 
-## Browsers
+## 🔎 Browsers
 * [Google Chrome](https://www.google.com/intl/de/chrome/)
 * [Firefox](https://www.mozilla.org/de/firefox/)
 
-## Virtualization
+## 📦 Virtualization
 * Virtual Box
 * Docker
 
 
-## Web Development 
+## 🌐 Web Development 
 * [Visual Studio Code](https://code.visualstudio.com/download)
 * [Sublime Text](https://www.sublimetext.com/download)
 * [SourceTree](https://www.sourcetreeapp.com/)
 * [Postman](https://www.getpostman.com/downloads/)
 * [Cyberduck](https://cyberduck.io/download/)
 
-## App Development
+## 📱 App Development
 * Android Studio
 * Application Loader (deprecated after Catalina)
 * Apple Configurator (via App Store)
 * Xcode (via App Store)
 
-## Terminal
+##   Terminal
 * [Homebrew](https://brew.sh/#install)
 * Phyton 3
 * [iTerm2](https://iterm2.com/downloads.html)
@@ -57,12 +57,12 @@ pip install powerline-shell
 * iTerm: Settings -> Profiles -> Keys -> Load Preset -> Natural Text Editing
 
 
-## Music
+## 🎵 Music
 * Sonos
 * Spotify
 
 
-## Corporate
+## 🏢 Corporate
 The following tools are most likely only in a corporate environment needed:
 
 * [Cisco Jabber](https://software.cisco.com/download/home/283880684/type/284006014/release/12.7(1))
