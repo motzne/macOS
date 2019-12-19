@@ -7,12 +7,12 @@ My personal guide for a good macOS setup
 * [Slack](https://slack.com/intl/de-ch/downloads/instructions/mac)
 
 ## Security
-* [Oversight - Protect your webcam and microphone ](https://objective-see.com/products/oversight.html)
-* [KnockKnock - What is persistantly installed](https://objective-see.com/products/knockknock.html)
-* [Sophos Home - Cybersecurity protection](https://home.sophos.com/en-us.aspx) 
-* [LittleSnitch - Network activity tracker](https://www.obdev.at/products/littlesnitch/download-de.html)
-* [1Password - Password manager](https://1password.com/)
-* [Security Hardening Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
+* [Oversight] (https://objective-see.com/products/oversight.html) - Protect your webcam and microphone
+* [KnockKnock](https://objective-see.com/products/knockknock.html) - What is persistantly installed
+* [Sophos Home](https://home.sophos.com/en-us.aspx) - Cybersecurity protection
+* [LittleSnitch](https://www.obdev.at/products/littlesnitch/download-de.html) - Network activity tracker
+* [1Password](https://1password.com/) - Password manager
+* A very good Security Hardening Guide. Credit to [drduh](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 
 
 ## Browsers
@@ -27,7 +27,7 @@ My personal guide for a good macOS setup
 ## Web Development 
 * [Visual Studio Code](https://code.visualstudio.com/download)
 * [Sublime Text](https://www.sublimetext.com/download)
-* [SourceTree] (https://www.sourcetreeapp.com/)
+* [SourceTree](https://www.sourcetreeapp.com/)
 * [Postman](https://www.getpostman.com/downloads/)
 * [Cyberduck](https://cyberduck.io/download/)
 
