@@ -140,3 +140,23 @@ function install_powerline_precmd() {
 if [ "$TERM" != "linux" ]; then
     install_powerline_precmd
 fi
+
+
+# Ionic Dev
+export ANDROID_STUDIO_VERSION=29.0.2
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/build-tools/${ANDROID_STUDIO_VERSION}
+export PATH=$PATH:/usr/local/Cellar/maven/3.6.3 
+
+export PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/bin:${PATH}
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+
+
+
+
+# LUKB 
+alias @lukb="source ~/.bashrc"
+alias @public="source ~/.bashrc_no_proxy"
