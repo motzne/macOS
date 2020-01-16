@@ -50,8 +50,8 @@ ln -s ~/Projects/macOS/.zshrc ~/.zshrc
 
 * [Powerline Shell](https://github.com/b-ryan/powerline-shell#zsh)
 ```
-mkdir -p ~/.config/powerline-shell && \ 
-cp ~/Projects/macOS/powerline-shell.config.json ~/.config/powerline-shell/config.json
+mkdir -p ~/.config/powerline-shell
+ln -s ~/Projects/macOS/powerline-shell/powerline-shell.config.json ~/.config/powerline-shell/config.json
 pip install powerline-shell
 ```
 * [Install Meslow Font](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf) and change Font in iTerm (otherwise a ? will be shown)

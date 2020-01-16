@@ -7,5 +7,7 @@
     "hg", 
     "jobs", 
     "root"
-  ]
+  ],
+ "mode": "compatible",
+ "theme": "~/Projects/macOS/powerline-shell/theme.py"
 }
