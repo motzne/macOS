@@ -31,12 +31,14 @@ My personal guide for a good macOS setup
 * [SourceTree](https://www.sourcetreeapp.com/)
 * [Postman](https://www.getpostman.com/downloads/)
 * [Cyberduck](https://cyberduck.io/download/)
+* [NodeJS](https://nodejs.org/en/download/)
 
 ## 📱 App Development
 * Android Studio
 * Application Loader (deprecated after Catalina)
 * Apple Configurator (via App Store)
 * Xcode (via App Store)
+* [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 ## 💻 Terminal
 * [Homebrew](https://brew.sh/#install)
@@ -70,3 +72,4 @@ The following tools are most likely only in a corporate environment needed:
 * [Microsoft Office Suite](https://www.office.com/?omkt=de-ch)
 * [Adobe CC](https://www.adobe.com/ch_de/creativecloud.html)
 * [KessPassXC](https://keepassxc.org/download/#mac)
+* [Maven](https://maven.apache.org/download.cgi)
