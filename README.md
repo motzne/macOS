@@ -39,6 +39,7 @@ My personal guide for a good macOS setup
 * Apple Configurator (via App Store)
 * Xcode (via App Store)
 * [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* nvm
 
 ## 💻 Terminal
 * [Homebrew](https://brew.sh/#install)
