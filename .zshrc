@@ -159,8 +159,6 @@ alias i="ionic"
 alias @lukb="source ~/.bashrc"
 alias @public="source ~/.bashrc_no_proxy"
 
-alias @screen="displayplacer "id:97BD716C-1E34-2232-3D7E-27B156EF6B1D res:1920x1200 hz:60 color_depth:8 scaling:off origin:(0,0) degree:0" "id:D212F7D4-F5A3-8509-83AB-6367ED8CFF55 res:1792x1120 hz:59 color_depth:8 scaling:on origin:(3840,43) degree:0" "id:27C54F87-EC3E-1308-BCAF-1824735D28EF res:1920x1200 hz:60 color_depth:8 scaling:off origin:(1920,0) degree:0""
-
 # Node NVM
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
@@ -186,5 +184,3 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
-
-
