@@ -28,6 +28,7 @@ My personal guide for a good macOS setup
 
 - Virtual Box
 - Docker
+- [k3sup "Ketchup" / Kubernetes Cloud Helper](https://github.com/alexellis/k3sup)
 
 ## 🌐 Web Development
 
