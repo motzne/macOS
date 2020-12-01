@@ -28,7 +28,9 @@ My personal guide for a good macOS setup
 
 - Virtual Box
 - Docker
-- [k3sup "Ketchup" / Kubernetes Cloud Helper](https://github.com/alexellis/k3sup)
+- [k3sup "Ketchup"](https://github.com/alexellis/k3sup)
+- [arkade](https://github.com/alexellis/arkade) one-stop CLI for Kubernetes
+- [kompose / Kubernetes + Compose / Converter](https://github.com/kubernetes/kompose)
 
 ## 🌐 Web Development
 
