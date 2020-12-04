@@ -187,9 +187,5 @@ load-nvmrc
 
 
 # Kubernetes
-source <(kubectl completion zsh)  # Richten Sie Autocomplete in zsh in der aktuellen Shell ein
-echo "if [ $commands[kubectl] ]; then source <(kubectl completion zsh); fi" >> ~/.zshrc # Fügen Sie der Zsh-Shell dauerhaft Autocomplete hinzuif [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
-if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
 if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
 source <(kompose completion zsh)
-if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
