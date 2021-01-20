@@ -3,13 +3,22 @@
 My personal guide for a good macOS setup
 ![macOS](assets/macOS_header.jpg)
 
-## 🚀 Productivity
+## Setup
+
+```bash
+# Removes all unused dock icons with one command
+defaults delete com.apple.dock persistent-apps; killall Dock
+```
+
+## Software / Tools
+
+### 🚀 Productivity
 
 - [SizeUp](http://www.irradiatedsoftware.com/sizeup/)
 - [Evernote](https://evernote.com/intl/de/download)
 - [Slack](https://slack.com/intl/de-ch/downloads/instructions/mac)
 
-## 🔐 Security
+### 🔐 Security
 
 - [Oversight](https://objective-see.com/products/oversight.html) - Protect your webcam and microphone
 - [KnockKnock](https://objective-see.com/products/knockknock.html) - What is persistantly installed
@@ -19,12 +28,12 @@ My personal guide for a good macOS setup
 - A very good Security Hardening Guide. Credit to [drduh](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 - [Cloudflare CLI Tool](https://github.com/danielpigott/cloudflare-cli) `.cfcli.yml`in 1Password
 
-## 🔎 Browsers
+### 🔎 Browsers
 
 - [Google Chrome](https://www.google.com/intl/de/chrome/)
 - [Firefox](https://www.mozilla.org/de/firefox/)
 
-## 📦 Virtualization
+### 📦 Virtualization
 
 - Virtual Box
 - Docker
@@ -32,7 +41,7 @@ My personal guide for a good macOS setup
 - [arkade](https://github.com/alexellis/arkade) one-stop CLI for Kubernetes
 - [kompose / Kubernetes + Compose / Converter](https://github.com/kubernetes/kompose)
 
-## 🌐 Web Development
+### 🌐 Web Development
 
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [Sublime Text](https://www.sublimetext.com/download)
@@ -50,7 +59,7 @@ My personal guide for a good macOS setup
 - [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - nvm
 
-## 💻 Terminal
+### 💻 Terminal
 
 - [Homebrew](https://brew.sh/#install)
 - Phyton 3
@@ -73,12 +82,12 @@ pip install powerline-shell
 - [Install Meslow Font](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf) and change Font in iTerm (otherwise a ? will be shown)
 - iTerm: Settings -> Profiles -> Keys -> Load Preset -> Natural Text Editing
 
-## 🎵 Music
+### 🎵 Music
 
 - [Sonos](https://www.sonos.com/de-ch/support)
 - [Spotify](https://www.spotify.com/ch-de/download/other/)
 
-## 🏢 Corporate
+### 🏢 Corporate
 
 The following tools are most likely only in a corporate environment needed:
 
