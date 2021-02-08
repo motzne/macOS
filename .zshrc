@@ -192,3 +192,5 @@ source <(kompose completion zsh)
 
 # Disable Homebrew Auto-Update
 export HOMEBREW_NO_AUTO_UPDATE=1
+alias @DNS_GOOGLE='networksetup -setdnsservers Wi-Fi 8.8.8.8'
+alias @DNS_EMPTY='networksetup -setdnsservers Wi-Fi "Empty"'
