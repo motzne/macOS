@@ -159,7 +159,6 @@ alias i="ionic"
 alias @lukb="source ~/.bashrc"
 alias @public="source ~/.bashrc_no_proxy"
 
-
 # Node NVM
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
@@ -185,3 +184,11 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+
+# Kubernetes
+if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
+source <(kompose completion zsh)
+
+# Disable Homebrew Auto-Update
+export HOMEBREW_NO_AUTO_UPDATE=1
