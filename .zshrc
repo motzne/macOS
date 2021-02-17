@@ -188,7 +188,7 @@ load-nvmrc
 
 # Kubernetes
 if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
-source <(kompose completion zsh)
+#source <(kompose completion zsh)
 
 # Disable Homebrew Auto-Update
 export HOMEBREW_NO_AUTO_UPDATE=1
