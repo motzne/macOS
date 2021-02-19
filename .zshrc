@@ -158,6 +158,9 @@ alias i="ionic"
 # LUKB 
 alias @lukb="source ~/.bashrc"
 alias @public="source ~/.bashrc_no_proxy"
+alias @futureApp_android="cd Projects/forty-two/mobile-apps/ch.lukb.app/android"
+alias @futureApp_ios="cd Projects/forty-two/mobile-apps/ch.lukb.app/ios"
+
 
 # Node NVM
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
@@ -194,3 +197,5 @@ if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
 export HOMEBREW_NO_AUTO_UPDATE=1
 alias @DNS_GOOGLE='networksetup -setdnsservers Wi-Fi 8.8.8.8'
 alias @DNS_EMPTY='networksetup -setdnsservers Wi-Fi "Empty"'
+
+
