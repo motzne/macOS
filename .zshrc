@@ -95,6 +95,7 @@ function o() {
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+zstyle :omz:plugins:ssh-agent identities id_rsa id_rsa_github_zie-ent
 plugins=(git ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
@@ -158,8 +159,8 @@ alias i="ionic"
 # LUKB 
 alias @lukb="source ~/.bashrc"
 alias @public="source ~/.bashrc_no_proxy"
-alias @futureApp_android="cd ~/Projects/forty-two/mobile-apps/ch.lukb.app/android"
-alias @futureApp_ios="cd ~/Projects/forty-two/mobile-apps/ch.lukb.app/ios"
+alias @futureApp_android="cd ~/Projects/forty-two/mobile-apps/ebanking/android"
+alias @futureApp_ios="cd ~/Projects/forty-two/mobile-apps/ebanking/ios"
 
 
 # Node NVM
