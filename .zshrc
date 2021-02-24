@@ -158,8 +158,8 @@ alias i="ionic"
 # LUKB 
 alias @lukb="source ~/.bashrc"
 alias @public="source ~/.bashrc_no_proxy"
-alias @futureApp_android="cd Projects/forty-two/mobile-apps/ch.lukb.app/android"
-alias @futureApp_ios="cd Projects/forty-two/mobile-apps/ch.lukb.app/ios"
+alias @futureApp_android="cd ~/Projects/forty-two/mobile-apps/ch.lukb.app/android"
+alias @futureApp_ios="cd ~/Projects/forty-two/mobile-apps/ch.lukb.app/ios"
 
 
 # Node NVM
