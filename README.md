@@ -58,6 +58,7 @@ defaults delete com.apple.dock persistent-apps; killall Dock
 - Xcode (via App Store)
 - [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - nvm
+- [scrcpy for Android Screen Sharing](https://github.com/Genymobile/scrcpy)
 
 ### 💻 Terminal
 
