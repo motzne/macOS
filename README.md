@@ -11,7 +11,7 @@ My personal guide for a good macOS setup
 defaults delete com.apple.dock persistent-apps; killall Dock
 ```
 
-## Software / Tools
+## Software / Tools
 
 ### 🚀 Productivity
 
@@ -71,6 +71,10 @@ defaults delete com.apple.dock persistent-apps; killall Dock
 
 ```bash
 ln -s ~/Projects/macOS/.zshrc ~/.zshrc
+
+# or
+echo "source ~/Projects/macOS/.zshrc" >> ~/.zshrc
+
 ```
 
 - [Powerline Shell](https://github.com/b-ryan/powerline-shell#zsh)
