@@ -27,6 +27,10 @@ alias o="open ."
 export PATH=/usr/local/opt/ruby/bin:$HOME/homebrew/bin:$PATH
 export LD_LIBRARY_PATH=$HOME/homebrew/lib:$LD_LIBRARY_PATH
 
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export LC_CYTPE=UTF-8
