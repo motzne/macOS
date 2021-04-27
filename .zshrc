@@ -165,8 +165,9 @@ alias @lukb="source ~/.bashrc"
 alias @public="source ~/.bashrc_no_proxy"
 alias @futureApp_android="cd ~/Projects/forty-two/mobile-apps/ebanking/android"
 alias @futureApp_ios="cd ~/Projects/forty-two/mobile-apps/ebanking/ios"
-
-
+if [[ -f "~/.lukb.proxy.exports.conf" ]]; then
+  export NODE_EXTRA_CA_CERTS="/Users/lu14995/Projects/devlab-config/certificates/ca-bundle.crt"
+fi
 # Node NVM
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
