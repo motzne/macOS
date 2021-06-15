@@ -163,10 +163,16 @@ alias i="ionic"
 # LUKB 
 alias @lukb="source ~/.bashrc"
 alias @public="source ~/.bashrc_no_proxy"
-alias @futureApp_android="cd ~/Projects/forty-two/mobile-apps/ebanking/android"
-alias @futureApp_ios="cd ~/Projects/forty-two/mobile-apps/ebanking/ios"
+alias @fa_android="cd ~/Projects/forty-two/mobile-apps/ebanking/android"
+alias @fa_ios="cd ~/Projects/forty-two/mobile-apps/ebanking/ios"
+alias @iam_spa="cd ~/Projects/forty-two/ebanking/auth/frontend"
+alias @fPortal="cd ~/Projects/forty-two/ebanking/portal/frontend"
+alias @reConnectVPN="kdestroy; sleep 2; klist; pkill -x Slack; pkill -x Slack; Sleep 1; open -a Slack"
 
 
+if [[ -f "~/.lukb.proxy.exports.conf" ]]; then
+  export NODE_EXTRA_CA_CERTS="/Users/lu14995/Projects/devlab-config/certificates/ca-bundle.crt"
+fi
 # Node NVM
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
