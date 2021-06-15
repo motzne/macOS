@@ -169,8 +169,8 @@ alias @futureApp_ios="cd ~/Projects/forty-two/mobile-apps/ebanking/ios"
 
 # Node NVM
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-source $(brew --prefix nvm)/nvm.sh
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+#source $(brew --prefix nvm)/nvm.sh
 
 
 autoload -U add-zsh-hook
