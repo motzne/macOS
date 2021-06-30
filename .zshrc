@@ -28,7 +28,7 @@ export PATH=/usr/local/opt/ruby/bin:$HOME/homebrew/bin:$PATH
 export LD_LIBRARY_PATH=$HOME/homebrew/lib:$LD_LIBRARY_PATH
 
 if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
+  eval "$(pyenv init --path)"
 fi
 
 export LANG=en_US.UTF-8
@@ -168,15 +168,18 @@ alias @fa_ios="cd ~/Projects/forty-two/mobile-apps/ebanking/ios"
 alias @iam_spa="cd ~/Projects/forty-two/ebanking/auth/frontend"
 alias @fPortal="cd ~/Projects/forty-two/ebanking/portal/frontend"
 alias @reConnectVPN="kdestroy; sleep 2; klist; pkill -x Slack; pkill -x Slack; Sleep 1; open -a Slack"
+alias killSSO="pkill -9 KerberosExtension AppSSOAgent KerberosMenuExtra"
+alias killAnyConnect="pkill -9 Cisco\ AnyConnect\ Secure\ Mobility\ Client"
 
-
-if [[ -f "~/.lukb.proxy.exports.conf" ]]; then
+if [[ -f "$HOME/.lukb.proxy.exports.conf" ]]; then
   export NODE_EXTRA_CA_CERTS="/Users/lu14995/Projects/devlab-config/certificates/ca-bundle.crt"
 fi
 # Node NVM
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 source $(brew --prefix nvm)/nvm.sh
+export HOMEBREW_BOTTLE_DOMAIN="http://lu380075.lucorp.ch/artifactory/homebrew/bottles"
+
 
 
 autoload -U add-zsh-hook
