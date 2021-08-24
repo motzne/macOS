@@ -18,6 +18,7 @@ defaults delete com.apple.dock persistent-apps; killall Dock
 - [SizeUp](http://www.irradiatedsoftware.com/sizeup/)
 - [Evernote](https://evernote.com/intl/de/download)
 - [Slack](https://slack.com/intl/de-ch/downloads/instructions/mac)
+- [Xnip Screenshots](http://xnipapp.com/)
 
 ### 🔐 Security
 
