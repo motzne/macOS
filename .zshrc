@@ -161,8 +161,8 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 alias i="ionic"
 
 # LUKB 
-alias @lukb="source ~/.bashrc"
-alias @public="source ~/.bashrc_no_proxy"
+alias _proxy@lukb="source ~/.lukb.proxy.direct.exports.conf"
+alias _proxy@public="source ~/.lukb.proxy.preproxy.exports.conf"
 alias _futureApp_android="cd ~/Projects/forty-two/mobile-apps/ebanking/android"
 alias _futureApp_ios="cd ~/Projects/forty-two/mobile-apps/ebanking/ios"
 alias _iam_spa="cd ~/Projects/forty-two/ebanking/auth/frontend"
