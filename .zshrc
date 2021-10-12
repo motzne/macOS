@@ -173,6 +173,7 @@ alias _killAnyConnect="pkill -9 Cisco\ AnyConnect\ Secure\ Mobility\ Client"
 alias @seebruecke="ssh jenkins@172.25.15.141"
 alias @kappelbruecke="ssh jenkins@172.25.15.142"
 alias @reussteg="ssh jenkins@172.25.15.143"
+alias 42="cd ${GD}/forty-two"
 
 if [[ -f "$HOME/.lukb.proxy.exports.conf" ]]; then
   export NODE_EXTRA_CA_CERTS="/Users/lu14995/Projects/devlab-config/certificates/ca-bundle.crt"
