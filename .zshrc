@@ -156,7 +156,7 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 export PATH=$PATH:$ANDROID_SDK_ROOT/build-tools/${ANDROID_STUDIO_VERSION}
 export PATH=$PATH:/usr/local/Cellar/maven/3.6.3 
 
-export PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/bin:${PATH}
+export PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/bin:${GD}/macOS/bin:${PATH}
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 alias i="ionic"
 
