@@ -66,6 +66,7 @@ defaults delete com.apple.dock persistent-apps; killall Dock
 
 - [Homebrew](https://brew.sh/#install)
 ```bash
+# /opt/homebrew/bin/brew
 brew install nvm
 brew install pip
 brew install python
